@@ -27,7 +27,7 @@ Object.values(food);
 // you created above:
 // YOUR CODE HERE
 
-Object.values(food[1])
+Object.values(food[1]);
 
 // Write code that adds a food to the foods object. 
 // Then, print the updated object:
@@ -40,6 +40,13 @@ food.sriracha = true;
 // Part 2: Email
 // -------------------
 
+var email = {
+  sender: true,
+  subjectLine: true,
+  cCMessage: true,
+  textBox: 1,
+  attachFile: true,
+};
 
 // Think about all the pieces of information associated with one single email in your inbox.
 // It has a sender, a subject, ...
@@ -54,10 +61,13 @@ food.sriracha = true;
 // you created above:
 // YOUR CODE HERE
 
+Object.keys(email);
+
 // Write code that logs all of the 'values' of the email object 
 // you created above:
 // YOUR CODE HERE
 
+Object.values(email);
 
 // -------------------
 // Part 3: Many Emails - CHALLENGE!
@@ -107,3 +117,4 @@ console.log(posts[0]);
 // YOU DO: Create an array of at least 3 EMAIL Objects, using the same 
 // key-value pairs you used in your email Object above.
 // Then, print the email Array to the Terminal.
+var post = ["imageSrc", "caption", "time"]
